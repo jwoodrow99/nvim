@@ -13,7 +13,10 @@ local config = {
     adaptive_size = true,
     mappings = {
       list = {
-        { key = "l", action = "edit" }, -- <Enter>
+        { key = "l", action = "edit" },
+        { key = "a", action = "expand_all" },
+        { key = "h", action = "close" },
+        { key = "c", action = "collapse_all" },
         { key = "<Enter>", action = "cd" },
       },
     },
