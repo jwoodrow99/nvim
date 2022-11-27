@@ -1,3 +1,7 @@
+-- hrsh7th/nvim-cmp
+-- L3MON4D3/LuaSnip
+-- ================
+
 -- Protected Call
 local cmp_status_ok, cmp = pcall(require, "cmp")
 if not cmp_status_ok then

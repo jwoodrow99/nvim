@@ -1,3 +1,6 @@
+-- nvim-telescope/telescope.nvim
+-- =============================
+
 -- Protected Call
 local status_ok, telescopeBuiltin = pcall(require, 'telescope.builtin')
 if not status_ok then

@@ -44,6 +44,7 @@ return packer.startup(function(use)
   -- Base Plugins and dependencies
   use { "wbthomason/packer.nvim" } -- Have packer manage itself
   use { "nvim-lua/plenary.nvim" } -- Useful lua functions used by lots of plugins
+  use { "nvim-tree/nvim-web-devicons" } -- Common dev icons
 
   -- LSP Plugins
   use { "williamboman/mason.nvim" } -- Language server manager Plugin
@@ -67,12 +68,16 @@ return packer.startup(function(use)
 
   -- Minor feature plugins
   use { "rafi/awesome-vim-colorschemes" } -- Colorscheme plugin
-  use { "nvim-tree/nvim-tree.lua" } -- File tree viewer
+  use { "nvim-tree/nvim-tree.lua", requires = "nvim-tree/nvim-web-devicons" } -- File tree viewer
   use { "nvim-telescope/telescope.nvim" } -- Fuzzy Filder
   use { "lukas-reineke/indent-blankline.nvim" } -- Indent guides
-  use { "nvim-lualine/lualine.nvim" } -- Buffer statusline
+  use { "nvim-lualine/lualine.nvim", requires = "nvim-tree/nvim-web-devicons" } -- Buffer statusline
   use { "tpope/vim-commentary" } -- Comment motion
   use { "tpope/vim-surround" } -- Sourround motion
+  use { "windwp/nvim-autopairs" } -- Auto generate character pairs
+  use { "lewis6991/gitsigns.nvim" } -- Add git line status in gutter
+  use { "sindrets/diffview.nvim", requires = "nvim-lua/plenary.nvim" } -- Compare git file difference
+  use { "akinsho/toggleterm.nvim" } -- Adds advanced terminal to nvim
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

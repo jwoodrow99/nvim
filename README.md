@@ -57,8 +57,9 @@ All repo's are located on GitHub and annotated in this document as ```<user_name
 
 | Repo | Use |
 |:-|:-|
-| wbthomason/packer.nvim | Packer itself |
-| nvim-lua/plenary.nvim | Useful lua functions used by lots of plugins |
+| wbthomason/packer.nvim | Package manager for plugins |
+| nvim-lua/plenary.nvim | Additional useful functions |
+| nvim-tree/nvim-web-devicons | Icon pack used by plugins |
 | williamboman/mason.nvim | Package manager for LSPs |
 | williamboman/mason-lspconfig.nvim | Automatically install LSP's via mason and register them with nvim-lspconfig |
 | neovim/nvim-lspconfig | Nvim native LSP support |
@@ -68,8 +69,8 @@ All repo's are located on GitHub and annotated in this document as ```<user_name
 | hrsh7th/cmp-cmdline | Code completion integration tools |
 | hrsh7th/nvim-cmp | Code completion integration tools |
 | L3MON4D3/LuaSnip | Code snippet engine |
-| saadparwaiz1/cmp_luasnip | Code snippet integration |
-| rafamadriz/friendly-snippets | Many code snippets |
+| saadparwaiz1/cmp_luasnip | Code snippet integration with CMP |
+| rafamadriz/friendly-snippets | Collection of code snippets |
 | nvim-treesitter/nvim-treesitter | Better syntax highlighting |
 | rafi/awesome-vim-colorschemes | Easily switch between popular color schemes |
 | nvim-tree/nvim-tree.lua | Tree files explorer |
@@ -78,3 +79,7 @@ All repo's are located on GitHub and annotated in this document as ```<user_name
 | nvim-lualine/lualine.nvim | Improves status bar |
 | tpope/vim-commentary | Comment shortcuts |
 | tpope/vim-surround | Surround shortcuts |
+| windwp/nvim-autopairs | Automatically create paired characters |
+| lewis6991/gitsigns.nvim | Add git indications to gutter |
+| sindrets/diffview.nvim | Show git diff in file |
+| akinsho/toggleterm.nvim | Integrated terminal |

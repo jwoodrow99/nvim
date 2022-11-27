@@ -1,3 +1,6 @@
+-- nvim-tree/nvim-tree.lua
+-- =======================
+
 -- Protected Call
 local status_ok, nvimTree = pcall(require, 'nvim-tree')
 if not status_ok then

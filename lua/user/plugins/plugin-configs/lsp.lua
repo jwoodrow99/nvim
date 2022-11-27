@@ -1,3 +1,7 @@
+-- neovim/nvim-lspconfig
+-- williamboman/mason.nvim
+-- =======================
+
 -- Protected Call
 local status_ok, _ = pcall(require, "lspconfig")
 if not status_ok then
@@ -119,10 +123,10 @@ local masonLspconfigConfig = {
     "purescriptls", "jedi_language_server", "pyright", "sourcery", "pylsp", "r_language_server", "rescriptls",
     "reason_ls", "robotframework_ls", "rome", "ruby_ls", "solargraph", "rust_analyzer", "sqlls", "sqls", "salt_ls",
     "theme_check", "solang", "solc", "solidity", "sorbet", "esbonio", "stylelint_lsp", "svelte",
-    "svlangserver", "svls", "taplo", "tailwindcss", "terraformls", "tflint", "tsserver", "vimls", "visualforce_ls",
+    "svlangserver", "taplo", "tailwindcss", "terraformls", "tflint", "tsserver", "vimls", "visualforce_ls",
     "volar", "vuels", "wgsl_analyzer", "lemminx", "yamlls" },
 
-  -- unconfigured LSP's: groovyls, asm_lsp, zls, foam_ls, vls, erlangls, haxe_language_server, ocamllsp, powershell_es, slint_lsp, verible, teal_ls, vala_ls
+  -- unconfigured LSP's: groovyls, asm_lsp, zls, foam_ls, vls, erlangls, haxe_language_server, ocamllsp, powershell_es, slint_lsp, verible, teal_ls, vala_ls, svls
 
 
   -- Whether servers that are set up (via lspconfig) should be automatically installed if they're not already installed.
