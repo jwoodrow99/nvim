@@ -13,7 +13,8 @@ local config = {
     adaptive_size = true,
     mappings = {
       list = {
-        { key = "l", action = "<Enter>" },
+        { key = "l", action = "edit" }, -- <Enter>
+        { key = "<Enter>", action = "cd" },
       },
     },
   },
@@ -28,5 +29,5 @@ vim.opt.termguicolors = true
 vim.cmd(':NvimTreeToggle')
 
 -- Key Bindings
-vim.keymap.set('n', '<leader>n', ':NvimTreeToggle<CR>', { silent = true, noremap = true })
+vim.keymap.set('n', '<leader>nt', ':NvimTreeToggle<CR>', { silent = true, noremap = true })
 vim.keymap.set('n', '<leader>nf', ':NvimTreeFindFile<CR>', { silent = true, noremap = true })
