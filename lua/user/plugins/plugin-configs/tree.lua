@@ -15,7 +15,6 @@ local config = {
       list = {
         { key = "l", action = "edit" },
         { key = "a", action = "expand_all" },
-        { key = "h", action = "close" },
         { key = "c", action = "collapse_all" },
         { key = "<Enter>", action = "cd" },
       },
