@@ -3,7 +3,7 @@
 -- Set default leader for custom bindings
 vim.g.mapleader = " "
 
-vim.keymap.set("i", "qq", "<ESC>") -- qq in inset mode will exit to normal mode
+-- vim.keymap.set("i", "qq", "<ESC>") -- qq in inset mode will exit to normal mode
 
 -- Split
 vim.keymap.set("n", "<leader>sv", "<C-w>v") -- split window verrtivally
