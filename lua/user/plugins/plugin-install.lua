@@ -69,7 +69,7 @@ return packer.startup(function(use)
   -- Minor feature plugins
   use { "rafi/awesome-vim-colorschemes" } -- Colorscheme plugin
   use { "nvim-tree/nvim-tree.lua", requires = "nvim-tree/nvim-web-devicons" } -- File tree viewer
-  use { "nvim-telescope/telescope.nvim" } -- Fuzzy Filder
+  use { "nvim-telescope/telescope.nvim", requires = "nvim-lua/plenary.nvim" } -- Fuzzy Filder
   use { "lukas-reineke/indent-blankline.nvim" } -- Indent guides
   use { "nvim-lualine/lualine.nvim", requires = "nvim-tree/nvim-web-devicons" } -- Buffer statusline
   use { "tpope/vim-commentary" } -- Comment motion

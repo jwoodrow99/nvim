@@ -117,14 +117,14 @@ local masonLspconfigConfig = {
     "efm", "eslint", "elixirls", "elmls", "ember", "emmet_ls", "erg_language_server", "fsautocomplete",
     "flux_lsp", "fortls", "glint", "golangci_lint_ls", "gopls", "gradle_ls", "grammarly", "graphql", "html",
     "hls", "hoon_ls", "jsonls", "jdtls", "quick_lint_js", "tsserver",
-    "jsonnet_ls", "julials", "kotlin_language_server", "ltex", "texlab", "lelwel_ls", "sumneko_lua", "luau_lsp",
+    "jsonnet_ls", "julials", "kotlin_language_server", "ltex", "texlab", "lelwel_ls", "lua_ls", "luau_lsp",
     "marksman", "prosemd_lsp", "remark_ls", "zk", "mm0_ls", "nickel_ls", "rnix", "bsl_ls", "spectral",
     "opencl_ls", "intelephense", "phpactor", "psalm", "perlnavigator", "prismals", "puppet",
-    "purescriptls", "jedi_language_server", "pyright", "sourcery", "pylsp", "r_language_server", "rescriptls",
-    "reason_ls", "robotframework_ls", "rome", "ruby_ls", "solargraph", "rust_analyzer", "sqlls", "sqls", "salt_ls",
+    "purescriptls", "jedi_language_server", "pyright", "pylsp", "r_language_server", "rescriptls",
+    "reason_ls", "robotframework_ls", "rome", "ruby_ls", "solargraph", "rust_analyzer", "sqlls", "sqlls", "salt_ls",
     "theme_check", "solang", "solc", "solidity", "sorbet", "esbonio", "stylelint_lsp", "svelte",
     "svlangserver", "taplo", "tailwindcss", "terraformls", "tflint", "tsserver", "vimls", "visualforce_ls",
-    "volar", "vuels", "wgsl_analyzer", "lemminx", "yamlls" },
+    "volar", "vuels", "vtsls", "wgsl_analyzer", "lemminx", "yamlls" },
 
   -- unconfigured LSP's: groovyls, asm_lsp, zls, foam_ls, vls, erlangls, haxe_language_server, ocamllsp, powershell_es, slint_lsp, verible, teal_ls, vala_ls, svls
 
