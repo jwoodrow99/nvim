@@ -118,7 +118,7 @@ local masonLspconfigConfig = {
     "flux_lsp", "fortls", "glint", "golangci_lint_ls", "gopls", "gradle_ls", "grammarly", "graphql", "html",
     "hls", "hoon_ls", "jsonls", "jdtls", "quick_lint_js", "tsserver",
     "jsonnet_ls", "julials", "kotlin_language_server", "ltex", "texlab", "lelwel_ls", "lua_ls", "luau_lsp",
-    "marksman", "prosemd_lsp", "remark_ls", "zk", "mm0_ls", "nickel_ls", "rnix", "bsl_ls", "spectral",
+    "marksman", "prosemd_lsp", "prosemd_lsp", "zk", "mm0_ls", "nickel_ls", "rnix", "bsl_ls", "spectral",
     "opencl_ls", "intelephense", "phpactor", "psalm", "perlnavigator", "prismals", "puppet",
     "purescriptls", "jedi_language_server", "pyright", "pylsp", "r_language_server", "rescriptls",
     "reason_ls", "robotframework_ls", "rome", "ruby_ls", "solargraph", "rust_analyzer", "sqlls", "sqlls", "salt_ls",
