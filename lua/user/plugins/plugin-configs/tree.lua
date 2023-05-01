@@ -14,8 +14,8 @@ local config = {
     mappings = {
       list = {
         { key = "l", action = "edit" },
-        { key = "a", action = "expand_all" },
-        { key = "c", action = "collapse_all" },
+        --{ key = "a", action = "expand_all" },
+        --{ key = "c", action = "collapse_all" },
         { key = "<Enter>", action = "cd" },
       },
     },
